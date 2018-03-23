@@ -16,7 +16,7 @@ end
 
 get "/contacts" do
   @contacts = Contact.all
-  erb :index
+  erb :index 
 end
 
 get "/create" do
